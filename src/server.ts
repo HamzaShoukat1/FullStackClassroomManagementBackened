@@ -1,6 +1,6 @@
-import { app } from "./app.js";
 import { db } from "./db/index.js";
 import { sql } from "drizzle-orm";
+import { app } from "./app.js";
 
 const startServer = async (): Promise<void> => {
   try {
